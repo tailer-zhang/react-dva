@@ -1,0 +1,125 @@
+.container {
+  background-color: #F0EFF2;
+}
+.list {
+  height: 100px;
+  padding-top: 32px;
+  padding-bottom: 26px;
+  //background-color: pink;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  .left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //background-color: pink;
+    input {
+      background-color: yellow;
+      height: 24px;
+      width: 24px;
+    }
+  }
+  .right {
+    //width: 86%;
+    //background-color: chartreuse;
+  }
+  box-sizing: border-box;
+}
+.title{
+  text-align: left;
+  font-size: 32px;
+}
+.tag {
+  margin-top: 10px;
+  left: 102px;
+  top: 242px;
+  width: 64px;
+  line-height: 28px;
+  border-radius: 8px;
+  color: rgba(229, 28, 35, 1);
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid rgba(229, 28, 35, 1);
+  box-sizing: border-box;
+}
+.mid {
+  margin-top: 10px;
+  //background-color: #f0932e;
+  display: flex;
+  flex-direction: row;
+  p:first-child, p:last-child{
+    width: 50%;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: left;
+  }
+  box-sizing: border-box;
+
+}
+.last {
+  margin-top: 10px;
+  //background-color: #f0932e;
+  display: flex;
+  flex-direction: row;
+  p:first-child, p:last-child{
+    width: 50%;
+    line-height: 46px;
+    text-align: left;
+    color: #808080;
+    font-size: 24px;
+  }
+  box-sizing: border-box;
+}
+
+.btn {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  border-radius: 0;
+  color: #fff;
+  background-color: #d51323;
+}
+.checkbox{
+  width: 100%;
+  margin-left: 0.1333rem;
+  box-sizing: border-box;
+  &>label{
+    width: 100%;
+    display: block !important;
+    box-sizing: border-box;
+    margin-left: 0 !important;
+    &>span{
+      width: 1.32rem !important;
+      //width: 13.333% !important;
+      &>span{
+        top: 28% !important;
+        left: 12% !important;
+      }
+    }
+    .right{
+      width: 8.66rem;
+      //width: 87.777%;
+      padding-right: 30px;
+      float: right;
+      //background-color: #00aaff;
+      box-sizing: border-box;
+
+      p{
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  &>label:after{
+    display: block;
+    content: '';
+    clear: both;
+    visibility: hidden;
+  }
+}

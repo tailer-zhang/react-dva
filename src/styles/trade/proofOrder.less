@@ -1,0 +1,212 @@
+/*排队查询页*/
+.queue {
+  width: 100%;
+  height: 100%;
+}
+/*列表组件*/
+.queuediv{
+  width: 100%;
+  padding-left: 30px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: 'PingFang SC Regular,Helvetica';
+  border-bottom: 2PX solid #dedede;
+}
+.prod{
+  .prodTitles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 30px;
+    font-size: 32px;
+    color: #000000;
+    .Itemleft{
+      width: 80%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .Itemright{
+      flex:1;
+      text-align: right;
+      font-size: 28px;
+      color: #f22f33;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+}
+
+.queueTime{
+  height: 80px;
+  font-size: 24px;
+  color: #848484;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.orderInfo{
+  width: 100%;
+  height: 135px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom: 1PX solid #dedede;
+}
+.orderInfo section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.orderInfo .textLeft{
+  align-items:flex-start;
+  flex: 1;
+  p{
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.orderInfo section p{
+  height: 55px;
+  line-height: 55px;
+  font-size: 36px;
+  color: #000000;
+}
+.orderInfo section .resvAmt{
+  font-size: 56px;
+  color: #f22f33;
+  text-align: center;
+  font-family: 'Helvetica';
+}
+.orderInfo section .resvAmt i{
+  font-size: 26px;
+}
+.orderInfo section>span{
+  display: block;
+  font-size: 24px;
+  color: #848484;
+  text-align: center;
+  margin-top: 16px;
+}
+.orderInfo .textRight{
+  width: 23.61%;
+  align-items: flex-end;
+}
+.orderInfo .textRight p{
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.showImage {
+  flex-direction: row;
+  margin-top: -21px;
+  img {
+    margin-right: 11px;
+    width: 93px;
+    height: 37px;
+  }
+}
+
+/*排队查询详情*/
+.detail {
+  width: 100%;
+  height: 100%;
+
+  ul {
+    width: 100%;
+    border-bottom: 1PX solid #dedede;
+    background: #fff;
+  }
+  ul li {
+    height: 90px;
+    margin-left: 30px;
+    padding-right:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1PX solid #dedede;
+    font-size: 28px;
+    font-family: 'PingFang SC Regular';
+  }
+  ul li:list-of-type {
+    border-bottom: 0;
+  }
+  .vipImage {
+    margin-right: 11px;
+    width: 90px;
+    height: 33px;
+  }
+  .vipImage:last-of-type {
+    margin-right: 0px;
+  }
+  .title{
+    width: 38.7%;
+    color: #848484;
+  }
+  ul li p:last-of-type{
+    width: 61.3%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333333;
+    text-align: right;
+  }
+}
+.submitBtn{
+  margin-top:150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  button{
+    display: block;
+    background: #F42F33;
+    height: 1.2rem;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 0.4533rem;
+    border-radius: 8px;
+  }
+}
+
+.contractInfo{
+  width:100%;
+  height:auto;
+  padding:0.6rem 0 0.2rem 0;
+  background-color: #fff;
+  border-bottom:1PX solid #dedede;
+  font-family: 'PingFangSC-Regular';
+}
+.info00{
+  display: flex;
+  margin-bottom: 0.4rem;
+}
+.text_01{
+  width:3.026rem;
+  color:#848484;
+  font-size: 0.346rem;
+  text-align: right;
+  padding-left:0.4rem;
+  box-sizing: border-box;
+  //font-family: 'PingFangSC-Regular';
+}
+.text_02{
+  flex:1;
+  color:#333;
+  font-size: 0.346rem;
+  padding-left:0.4rem;
+  padding-right:0.4rem;
+  box-sizing: border-box;
+  //font-family: 'PingFang SC Regular';
+}

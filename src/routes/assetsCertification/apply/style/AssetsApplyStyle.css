@@ -1,0 +1,62 @@
+.content {
+  padding-top: 2.533rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  boxSizing: 'border-box';
+  margin-top: 96px;
+}
+.list {
+  width: 100%;
+  height: 171px;
+  padding: 40px 20px;
+}
+.head {
+  width: 100%;
+}
+.head div:first-child {
+  float: left;
+  width: 90%;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+}
+.head div:first-child p {
+  font-size: 33px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  color: #000;
+}
+.head div:first-child span {
+  width: 2.5rem;
+  margin-left: 25px;
+}
+.head div:last-of-type {
+  float: right;
+}
+.image1 {
+  width: 33px;
+}
+.image2 {
+  width: 15px;
+}
+.last {
+  width: 100%;
+  margin-top: 27px;
+}
+.last div:first-child {
+  float: left;
+}
+.last div:first-child p {
+  font-size: 24px;
+  color: #000;
+}
+.last div:last-child {
+  float: left;
+}
+.last div:last-child p {
+  font-size: 24px;
+  text-align: center;
+  color: #858585;
+}

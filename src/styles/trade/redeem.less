@@ -1,0 +1,497 @@
+//赎回列表
+.pFull{
+  // height: 100px;
+}
+.list{
+  height: 3.7334rem;
+  width: 100%;
+  background-color: #fff;
+  // padding:30px;
+  font-family: 'PingFangSC Medium';
+  position: relative;
+}
+.newsDiv{
+  width: auto;
+  border-radius: 0.2666rem;
+  padding: 0;
+  margin: 0.4rem;
+  box-shadow: 0px 0px 10px 5px #dddde2;
+}
+.newsDiv .useList{
+  border-top-left-radius: 0.2666rem;
+  border-top-right-radius: 0.2666rem;
+}
+.listTitle2 div{
+  float: left;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-family: 'PingFangSC-Regular';
+
+}
+.listTitle2 .audit{
+  width: 3.87rem;
+}
+.listTitle2 .editIcon{
+  width: 7%;
+  margin-left: 1%;
+}
+.listTitle2 .editIcon img{
+  width: 41px;
+  height: 41px;
+}
+.listTitle2 .auditCust{
+  width: 3.335rem;
+  float: right;
+}
+.auditCust p{
+  float: left;
+}
+// .auditCust .auditType{
+//   float: right;
+// }
+.listTit div{
+  float: left;
+  height: 60px;
+  line-height: 60px;
+}
+.listTit .editIcon{
+
+}
+.prodName{
+  color: #000000 !important;
+  font-size: 0.427rem;
+  text-align: left;
+  font-family: 'PingFangSC-Regular';
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.auditType {
+  width: 1.8667rem;
+  float: right;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  text-align: center;
+  border: 2px solid #f22f33;
+  border-radius: 36px;
+  color: #f22f33;
+  font-size: 0.32rem;
+}
+.redeemBtn{
+  width: 3.82rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.redeemBtn p{
+  float: left;
+}
+.redeemBtn .p2{
+  background-color: #f22f33;
+  float: right;
+  border-radius: 10px;
+  width: 1.4rem;
+}
+.shBtn0{
+  height: 1.2rem;
+  width: 100%;
+  background-color: #f22f33;
+  text-align: center;
+  line-height: 1.2rem;
+  color: #ffffff;
+  font-size: 0.4533rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+
+
+.alertMsg {
+  height: 220px;
+  padding: 10px 20px 40px 20px;
+  width: 100%;
+}
+.alertMsg p{
+  color: #969696;
+  font-size: 28px;
+  text-align: justify;
+}
+.alertMsg span {
+  font-size: 28px;
+  color: #f22f33;
+  margin-left: 23px;
+}
+.alertMsg img{
+  width: 34px;
+}
+@keyframes alert {
+  0% {height: 50px;}
+  50% {height: 150px;}
+  100% {height: 200px;}
+}
+.checkboxItem {
+  display: flex;
+  margin-top: 34px;
+  align-items: center;
+}
+.tradeInfo{
+  width: 100%;
+  height: 100%;
+  background-color: #efeff4;
+}
+.tradeTabBox{
+  overflow: hidden;
+  position: relative;
+}
+.tradeDjDate{
+  width: 100%;
+  padding-top: 30px;
+  height: 90px;
+  box-sizing: border-box;
+}
+.tradeDjDate p{
+  margin: 0 auto;
+  width: 250px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  background-color: #bfbfc3;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.publicInfo{
+  padding: 0 0.4rem;
+}
+.prodInfo{
+  width: 100%;
+  height: 5.56rem;
+  padding: 0.32rem 0.4rem;
+  padding-bottom: 0.4rem;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.prodInfo ul{
+  float: left;
+}
+.indoUlLeft{
+  width: 30%;
+  height: 100%;
+  text-align: right;
+  color: #848484;
+  margin-right: 0.4rem;
+}
+.indoUlRight{
+  color: #333333;
+  width: 65%;
+}
+.prodInfo li{
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.3467rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.inifoText{
+  height: 2.266rem;
+  width: 100%;
+  padding: 0.4rem;
+  resize: none;
+}
+.tradeType{
+  width: 1.0667rem;
+  height: 0.467rem;
+  border-radius: 8px;
+//  margin-top: 18px;
+  margin-right: 10px;
+  line-height: 0.4667rem;
+  text-align: center;;
+  background-color: #ffe2e3;
+  color: #f22f33;
+  font-size: 0.32rem;
+  box-sizing: border-box;
+}
+//我的预约  相关样式
+.orderImg{
+  width: 0.6rem;
+  height: 1.28rem;
+  position: absolute;
+  top: 0;
+  right: 0.4rem;
+  padding-top: 10px;
+}
+.orderImg img{
+  width: 85%;
+  // height: 32px;
+}
+
+
+//信息使用额度组件样式
+// .useInfo{
+//   width: 100%;
+//   height: 285px;
+//   padding: 30px 15px 0 15px;
+//   box-sizing: border-box;
+// }
+.useList{
+  width: 100%;
+  // height: 3.333rem;
+  background-color: #ffffff;
+  // border-radius: 0.2666rem;
+  font-family: 'PingFangSC-Regular';
+}
+.listTit{
+  height: 1.2rem;
+  border-bottom: 1PX solid #dedede;
+  padding:0 0.4rem;
+  box-sizing: border-box;
+}
+.list .propTime{
+  height: 80px;
+  border-bottom-left-radius: 0.2666rem;
+  border-bottom-right-radius: 0.2666rem;
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f7f7f8;
+  font-size: 24px;
+  color: #848484;
+  font-family: 'PingFang SC Regular';
+}
+.listTit .auditType{
+  height: 0.50rem;
+  line-height: 38px;
+}
+.useList .prodName{
+  line-height: 1.2rem;
+}
+.compTran{
+  width: 100%;
+  padding:0.2rem 0.4rem;
+}
+
+//交易 驳回修改列表
+.list .auditType{
+  height: 0.506rem;
+  line-height: 0.50rem;
+  margin-top: 0.226rem;
+}
+
+
+//  //
+.test{
+  width: 750px;
+  height: 500px;
+  background-color: #ccc;
+  position: absolute;
+  top: 0;
+  right: -750px;
+  display: none;
+}
+
+//Toast 转换<br/>
+// .roastMesg{
+//   background-color: rgba(0, 0, 0, 0.5);
+// }
+
+//赎回原因样式
+.remark{
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  padding: 0 0.4rem;
+  font-size: 0.3733333rem;
+  background-color: #fff;
+}
+.remark ul{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.remark li{
+  float: left;
+}
+.remark li:first-child{
+  width: 25%;
+  text-align: left;
+}
+.remark li:last-child{
+  width: 75%;
+  color: #f22f33;
+}
+.remark li:last-child span{
+  display: inline-block;
+  text-align: right;
+  width: 92.8%;
+  margin-right: 3%;
+}
+.remark .ReqSeqImg{
+  width: 0.2466rem;
+  height: 0.45rem;
+  vertical-align: middle;
+}
+.boxScroll,.box,.boxScrollTra{
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling:touch;
+}
+.boxScroll{
+  top: 2.53rem;
+  bottom: 0;
+}
+.box{
+  top:1.333rem;
+  bottom: 1.2rem;
+}
+.boxScrollTra{
+  top:1.333rem;
+  bottom:0;
+}
+// .redMemark{
+//   width: 100%;
+//   line-height: 1.2rem;
+//   padding: 0 0.4rem;
+//   background-color: #fff;
+//   font-size: 0.3733333rem;
+//   // height: 180px;
+// }
+// .redMemark ul{
+//   display: block;
+//   width: 100%;
+// }
+//
+// .redMemark li{
+//   float: left;
+// }
+// .redMemark li:first-child{
+//   width: 25%;
+//   text-align: left;
+// }
+// .redMemark li:last-child{
+//   width: 75%;
+//   color: #f22f33;
+// }
+// .redMemark li:last-child span{
+//   display: inline-block;
+//   text-align: right;
+//   width: 92.8%;
+//   margin-right: 3%;
+// }
+.redbox{
+  width: 100%;
+  height: calc(~"100% - 90px");
+  position: relative;
+  overflow: hidden;
+}
+.redbox .box{
+  top: 0 !important;
+  bottom: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.shBtn{
+  height: 100px;
+  width: 50%;
+  background-color: #F9B615;
+  text-align: center;
+  line-height: 1.2rem;
+  color: #ffffff;
+  font-size: 0.4533rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+.shBtn1{
+  height: 100px;
+  width: 50%;
+  background-color: #f22f33;
+  text-align: center;
+  line-height: 1.2rem;
+  color: #ffffff;
+  font-size: 0.4533rem;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  cursor: pointer;
+}
+.originalOrder{
+  background: #fff;
+  .originalWrapper{
+    height: 1.2rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    color: #888;
+  }
+}
+.modalbg{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.4);
+  z-index: 999;
+  opacity: .5;
+  transition: opacity .25s;
+}
+.ampopup{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  bottom:-100%;
+  transition: bottom .3s;
+  :global{
+    .am-radio{
+      height: 100% !important;
+    }
+    .am-list-header{
+      background:#F7F5F9;
+    }
+    .am-radio-inner{
+      width: .5rem;
+      height: .5rem;
+      border:1px solid rgba(136,136,136,.8);
+    }
+    .am-button.am-button-disabled, .am-button-primary.am-button-disabled, .am-button-ghost.am-button-disabled, .am-button-warning.am-button-disabled{
+      background-color: #f22f33;
+      opacity: .6;
+      color: #fff;
+    }
+  }
+
+}
+.slideUp{
+  bottom:0;
+}
+.opacity{
+  opacity: 1;
+}
+.SingleWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.SingleWrapper>div{
+  margin-right: 20px;
+  margin-bottom: 5px;
+  font-size: 32px;
+  color: #333;
+}
+.redLabel{
+  color: #f22f33;
+}

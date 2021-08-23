@@ -1,0 +1,379 @@
+
+html,body{
+  background-color: #efeff4;
+}
+//填充P
+.pFull{
+  width: 100%;
+  // height:100px;
+}
+
+.right {
+  position: absolute;
+  top:10;
+  right: 60px;
+  width: 40px;
+  height: 40px;
+  text-align: right;
+  font-size: 0.453333rem;
+  color:#333;
+}
+.titleImg{//重写了一个
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.titleImg img{
+  width: 35px;
+  height: 35px;
+}
+
+//选择客户  //客户查询
+
+.secCustomer{
+  height: 100%;
+  background-color: #F7F7F8;
+}
+.secSearch{
+  // border-top:1PX solid #e0e0e0;
+  // border-bottom: 1px solid #e0e0e0;
+}
+.userInfo{
+  position: relative;
+}
+.userInfo .arrow{
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.userInfo p{
+  height: 70px;
+  line-height: 70px;
+  color: #000000;
+}
+.userInfo p>span>img{
+  width: .45rem;
+  height: .45rem;
+}
+.userName{
+  position: absolute;
+  left: 0;
+  top: 25%;
+  font-size: 30px;
+}
+.userName span{
+  margin-left: 20px;
+}
+.userId{
+  font-size: 26px;
+  color: #333333;
+}
+.bankCard{
+  height: 92.5%;
+  background-color: #f7f7f7;
+}
+//无数据显示的组件样式
+.empty{
+  padding-top: 200px;
+}
+
+//银行卡管理 银行卡组件
+
+.bankBox{
+  color: white;
+  width: 100%;
+  height:5.3rem;
+  background-color: white;
+  padding: 22px 17px 0 17px;
+  // margin-bottom: 20px;
+}
+.selectedBankBox{
+  color: white;
+  width: 100%;
+  height:4.3rem;
+  background-color: white;
+  padding: 22px 17px 0 17px;
+  // margin-bottom: 20px;
+}
+.cardInfo{
+  width: 100%;
+  height: 280px;
+  background-color: #f55466;
+  border-radius: 13px;
+  padding-top: 17px;
+}
+.cardInfoUp{
+  padding-left: 39px;
+  border-bottom: 2px solid;
+  border-bottom-color:rgba(255, 255, 255, 0.25);
+  display: flex;
+}
+// .cardInfoUp div{
+//   float: left;
+// }
+.qyLift{
+  flex: 4;
+}
+.qyLift p{
+  height: 58px;
+  line-height: 58px;
+}
+.recStat{
+  flex: 1;
+
+  display: flex;
+}
+.qyRight{
+  width: 50px;
+  padding-top: 17px;
+  height: 58px;
+  // float: right;
+}
+.qyRight div{
+  display:block;
+  width: 98px;
+  text-align: center;
+  font-size: 28px;
+  height: 40px;
+  line-height: 40px;
+  float: right;
+  color: #FDDDE2;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.25);
+}
+.cardInfo section{
+  height: 143px;
+}
+.cardName{
+  font-size: 32px;
+  // width: 520px;
+}
+.cardNum{
+  font-size: 38px;
+}
+.cardInfoDown{
+  padding-left: 39px;
+  // padding-top: 10px;
+}
+.cardInfoDown p{
+  height: 40px;
+  line-height: 40px;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.bankBtn{
+  width: 100%;
+}
+.bankBtn ul{
+  width: 510px;
+  float: right;
+}
+.bankBtn li{
+  float: left;
+  width: 170px;
+  height: 90px;
+  color: #848484;
+  display: block;
+}
+.bankBtn li span{
+  float: left;
+  height: 100%;
+  color: #848484;
+  font-size: 28px;
+}
+.bankBtn li span img{
+  width: 39px;
+  height: 37px;
+}
+.second{
+  margin-top: 26px;
+}
+.img{
+  margin-top: 16px;
+}
+.spanBtn{
+  width: 56px;
+  // height: 90px;
+  margin-right: 10px;
+  padding-top:8px;
+  box-sizing: border-box;
+}
+.ccc{
+  width: 100%;
+  // height: 128px;
+}
+.keyBtn6 div{
+  float: left;
+  height: 88px;
+  width: 50%;
+  line-height: 88px;
+  border-top: 2px solid #dedede;
+  color: #f22f33;
+  font-size: 34px;
+}
+.keyBtn6 div:first-child{
+  border-right: 2px solid #dedede;
+}
+
+//银行卡管理 alert组件
+.shadeBox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+//新增银行客户页面
+.newBankIdBox{
+  width: 100%;
+}
+.push{
+  color: #f22f33;
+  height: 98px;
+  // padding-top: 0.853333rem;
+  font-size: 34px;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  background-color: #f7f7f8;
+}
+.cancel{
+  color: #f22f33;
+  height: 98px;
+  // padding-top: 0.853333rem;
+  font-size: 34px;
+  position: absolute;
+  left:30px;
+  top: 0;
+  background-color: #f7f7f8;
+}
+.nameId{
+  height: 240px;
+  width: 100%;
+  padding-top: 24px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+.nameId ul{
+  float: left;
+  height: 100%;
+  font-size: 26px;
+}
+.leftUl{
+  width: 132px;
+  text-align: right;
+  margin-right: 35px;
+  box-sizing: border-box;
+  color: #848484;
+}
+.nameId li{
+  height: 55px;
+  line-height: 55px;
+}
+.rightUl{
+  color: #333333;
+}
+.card{
+  // height: 182px;
+  padding:0 30px;
+  border-bottom: 1PX solid #dedede;
+  background-color: #ffffff;
+}
+.card ul{
+  height: 100%;
+}
+.card li{
+  height: 90px;
+  line-height: 90px;
+  font-size: 28px;
+}
+.card li:first-child{
+  border-bottom: 1PX solid #dedede;
+}
+.card span{
+  float: right;
+  color: #848484;
+}
+
+// 银行卡变更页面
+.newCardOld{
+  // height: 180px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.changCard{
+  width: 100%;
+  // height: 90px;
+  // line-height: 90px;
+  font-size: 26px;
+  color: #333;
+  padding:0 30px;
+  border-bottom: 1PX solid #dedede;
+  margin-bottom: 30px;
+}
+.chang{
+  background-color: #fff;
+  // padding-bottom:30px;
+}
+.newCardOld span{
+  color: #333;
+  font-size: 26px;
+}
+.fileNum{
+  float: right;
+  color: #848484;
+}
+.cardStyleBox{
+  padding: 22px 0;
+}
+.backCard{
+  height: 95px;
+  background-color: #fff;
+  // line-height: 80px;
+  padding: 8px 0 8px 30px;
+}
+.backCard p:first-child{
+  border-top: solid 1PX #dcdcdc;
+}
+.backCard p{
+  line-height: 40px;
+  color: #848484;
+  font-family: 'PingFangSC-Regular';
+  font-size: 28px;
+}
+.circle{
+  width: 100%;
+  // height: 88px;
+  background-color: #fff;
+  border-bottom: solid 1PX #dedede;
+  // line-height: 44px;
+  padding: 10px 30px;
+}
+.circle p{
+  line-height: 45px;
+  font-size: 28px;
+  font-family: 'PingFangSC-Regular';
+}
+
+.right {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  text-align: right;
+  font-size: 0.453333rem;
+  color:#333;
+}
+
+.bankCards{
+  text-align: center;
+  background: red;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 32px;
+  margin-bottom: 200px;
+}

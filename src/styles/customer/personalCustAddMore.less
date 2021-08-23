@@ -1,0 +1,175 @@
+.editTotal{
+  position: relative;
+  height: 100%;
+}
+.wrap{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 98px;
+  display: flex;
+  margin-top: 90px;
+}
+.abandon,.blacklist,.assess{
+  width: 98px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-top: solid 1PX #dedede;
+  border-right: solid 1PX #dedede;
+}
+.wrap img{
+  width: 37px;
+  height: 37px;
+  margin: 12px 0;
+}
+.save{
+  flex: 1;
+  background-color: #ff9c00;
+  color: #fff;
+  font-size: 34px;
+  text-align: center;
+  line-height: 98px;
+}
+.submit{
+  flex: 1;
+  background-color: #f22f33;
+  color: #fff;
+  font-size: 34px;
+  text-align: center;
+  line-height: 98px;
+}
+
+//个人客户资料添加 上传资料
+.pFull{
+  // height: 100px;
+  width: 100%;
+}
+.fileType{
+  //margin-top: 0.4rem;
+  height: auto;
+  // height: 4.2rem;
+  padding-bottom: 30px;
+  margin-bottom: .3rem;
+  background-color: #fff;
+  padding-bottom: 1px;
+}
+.fileType p{
+  width: 100%;
+  min-height: 1.3rem;
+  padding: 0 0.4rem;
+  //line-height: 90px;
+  font-size: 28px;
+  color: #333333;
+  border-bottom: 2px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fileType p span {
+  float: right;
+  color: #848484;
+}
+.textName{
+  width: 100%;
+  padding: 15px 0 15px 30px;
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #848484;
+  text-align: left;
+
+}
+.imgName{
+  width: 100%;
+  height: 1rem;
+  margin-bottom: .3rem;
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgName input{
+  display: inline-block;
+  width: 76%;
+  height: 100%;
+  outline: none;
+  border: 1PX solid #eee;
+  border-radius: 10px;
+  padding-left: .4rem;
+}
+.imgName p{
+  width: 20%;
+  height: 100%;
+  background-color: #f22f33;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1rem;
+}
+.dataImg{
+  display: inline-block;
+  width: 100%;
+  padding: 30px;
+}
+.dataImg img{
+  width: 156px;
+  height: 156px;
+}
+//tab 悬浮定位
+.tabFixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    width: 100%;
+    z-index: 99;
+}
+
+.boxScroll{
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  right: 0;
+  bottom: 1.30667rem;
+  overflow: auto;
+  -webkit-overflow-scrolling:touch;
+}
+.souFunds{
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 15px;
+  background-color: #fff;
+}
+.reactModal{
+  overflow-y: scroll;
+  -webkit-overflow-scrolling : touch;
+  padding: 30px;
+  background-color: #fff;
+}
+.pdfBox{
+  overflow-y: scroll;
+  -webkit-overflow-scrolling : touch;
+  width: 100%;
+  height: calc(~"100% - 1.5rem");
+}
+.pdfBoxWrapper{
+  overflow-y: scroll;
+  -webkit-overflow-scrolling : touch;
+  width: 100%;
+  height: calc(~"100% - 250px");
+}
+.filePdfIcon{
+  width: 156px;
+  height: 156px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top:20px;
+  img{
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}

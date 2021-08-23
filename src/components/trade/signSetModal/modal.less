@@ -1,0 +1,82 @@
+
+
+.modalBg{
+  position: fixed;
+  z-index: 100;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: rgba(0,0,0,.4);
+}
+.contentWrapper{
+    width: 564px;
+    border-radius: 20px;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    z-index: 101;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    .modaltitles{
+      text-align: center;
+      padding-top:40px;
+      padding-bottom: 23px;
+      font-size: 36px;
+    }
+  .contents{
+    padding-left: 30px;
+    color: #212121;
+  }
+  .contractCode{
+    color: #B1B1B1;
+    margin-bottom: 20px;
+  }
+  .contractDes{
+    color: #212121;
+    margin-bottom: 24px;
+  }
+  .contractWay{
+    color: #B1B1B1;
+    margin-bottom: 20px;
+  }
+  .signMethods{
+    display: flex;
+    .leftItem{
+      margin-right: 121px;
+    }
+    input[type="radio"]{
+      width:24px;
+      height: 24px;
+      background-image: url("../../../image/trade/noselected.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      margin-right: 11px;
+      &.radioSelected{
+        background-image: url("../../../image/trade/selected.png");
+      }
+    }
+
+
+  }
+  .footers{
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 45px;
+    margin-top:50px;
+    justify-content: space-between;
+    .normalBtn{
+      height: 66px;
+      border-radius: 33px;
+      width: 240px;
+      background: #B8B3AF;
+      color: #fff;
+    }
+    .lightBtn{
+      background: #CF2828;
+    }
+  }
+}

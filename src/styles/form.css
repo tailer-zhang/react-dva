@@ -1,0 +1,41 @@
+.checkbox {
+  width: 100%;
+}
+.checkbox span {
+  border-radius: 0;
+}
+.checkbox span span {
+  width: 34px;
+  height: 34px;
+  border: 2px solid #888;
+  margin: 3px 0;
+}
+.checkbox::after {
+  display: block;
+  content: "";
+  clear: both;
+  width: 0;
+  height: 0;
+  visibility: visible;
+}
+.moveLeft {
+  background-color: white;
+}
+.moveLeft > div > div:last-child {
+  flex-basis: 80% !important;
+  font-size: 30px !important;
+  color: #666666 !important;
+  text-align: left !important;
+}
+.itemToLeft > div:first-child {
+  width: 1.78rem !important;
+}
+.itemToLeft > div:last-child > input {
+  text-align: left !important;
+  font-size: 30px;
+  color: #666666 !important;
+}
+.itemToLeft > div:last-child > input::-webkit-input-placeholder {
+  color: #D1D1D1 !important;
+  font-size: 30px;
+}

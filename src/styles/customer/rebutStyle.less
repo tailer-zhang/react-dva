@@ -1,0 +1,30 @@
+.bottom {
+  //background-color: #00aaff;
+  padding: 16px 0;
+  margin-top: 19px;
+  border-top: 1PX solid #E5E5E5;
+}
+.bottom::after{
+  content: '';
+  clear: both;
+  display: block;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+}
+.bottom button {
+  float: right;
+  margin-right: 20px;
+  width:148px;
+  height:58px;
+  border-radius:29px;
+  background-color: #ffffff;
+  &:first-child{
+    color: rgba(232,25,27,1);
+    border:1px solid rgba(232,25,27,1);
+  }
+  &:last-child{
+    color: rgba(81,164,75,1);
+    border:1PX solid rgba(81,164,75,1);
+  }
+}

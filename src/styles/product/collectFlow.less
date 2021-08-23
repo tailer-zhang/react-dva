@@ -1,0 +1,419 @@
+.btn {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  position: relative;
+}
+.btn .first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fontStyle {
+  padding-top: 5px;
+  color: #000000;
+  font-size: 12px;
+  span {
+    font-weight: bold;
+  }
+}
+.headerCnt{
+  height: auto;
+  //background-color: #fff;
+}
+.collectFlow{
+  width: 100%;
+  height: 100%;
+  //background-color: #fff;
+  padding: 0 0.4rem;
+  padding-top: 75px;
+}
+.collectTime>p{
+  width: 100%;
+  height: 105px;
+  float: left;
+}
+.collectTime>p>span{
+  display: block;
+  float: left;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-color: #909090;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  padding-top: 37px;
+  font-family: 'PingFang-SC-Regular';
+  box-sizing: border-box;
+}
+.defaultHeight{
+  width: 100%;
+  height: 36px;
+}
+.defaultHeight img{
+  width: 15px;
+  height: 15px;
+}
+.collectTime>div>p{
+  float: left;
+  width: 14%;
+  padding-left: 6.5%;
+  box-sizing: border-box;
+}
+.collectTime>div>p>i{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 18px;
+  background-color: #c3c3c3;
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+.collectTime>div>p>i img{
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+.lackLine i{
+  height: 36px;
+}
+.autoBlack{
+  height: auto;
+  float: left;
+  width: 100%;
+  //background-color: #00aaff;
+  box-sizing: border-box;
+}
+.autoBlack>p>i>img{
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+.flowBlack{
+  float: left;
+  position: relative;
+  width:86%;
+  background-color: #eeeeee;
+  padding-top: 15px;
+  padding-left: 27px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.flowBlack>p{
+  float: left;
+  width: 29.65%;
+  color: #f22f33;
+  font-size: 26px;
+  font-family: 'PingFang-SC-Regular';
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.flowBlack>div{
+  float: left;
+  width: 70%;
+}
+.flowBlack>div img{
+  float: right;
+  width: 35px;
+  height: 35px;
+}
+.flowBlack>div>button{
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 28px;
+  color: #444444;
+  font-family: 'PingFang-SC-Regular';
+  padding: 17px;
+  padding-top: 15px;
+  position: relative;
+  box-sizing: border-box;
+}
+.flowBlack>div>button>span{
+  float: left;
+  width: 87%;
+  // height: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.flowBlack>div>button i{
+  color: #f22f33;
+  display: inline-block;
+  font-family: 'PingFang-SC-Bold';
+  width: 30px;
+  background-color: #ccc;
+}
+.flowBlack>i{
+  display: inline-block;
+  border: 15px solid #eeeeee;
+  border-color: #eeeeee;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid transparent;
+  position: absolute;
+  left: -30px;
+  top: 45px;
+}
+.autoBlack ::after{
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+.after{
+    clear:both;
+   height: 0;
+   overflow:hidden;
+}
+.clear{
+  display: inline-block;
+  clear:both;
+   height: 0;
+   overflow:hidden;
+}
+.duration>p>span{
+  background-color: #fff;
+  border: 2PX solid #f22f33;
+  color: #f22f33;
+}
+.duration2>p>span{
+  background-color: #f22f33;
+  border: 2PX solid #fff ;
+  color:  #fff ;
+}
+//募集流程遮罩
+
+.openShade{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  // left: 0;
+  bottom: 0;
+  // right: 0;
+  zoom:1;
+  background: rgba(0 ,0,0, .6);
+}
+.prompt{
+  width: 85%;
+  height: 416px;
+  margin: auto;
+  margin-top: 60%;
+  border-radius: 20px;
+  background-color:#fff;
+  box-sizing: border-box;
+}
+.prompt section{
+  padding: 15px;
+}
+.prompt section p:first-child{
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: 32px;
+  font-family: 'PingFang-SC-Medium';
+  color: #000000;
+  text-align: center;
+  box-sizing: border-box;
+}
+.prompt section p:last-child{
+  font-size: 28px;
+  font-family: 'PingFang-SC-Regular';
+  color: #000000;
+  text-align: left;
+  text-indent: 2em;
+  line-height: 47px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+.prompt p:last-child{
+  font-family: 'PingFang-SC-Regular';
+  color: #f22f33;
+  text-align: center;
+  font-size: 34px;
+  padding-top: 25px;
+  box-sizing: border-box;
+}
+.WhiteSpeace{
+	width: 100%;
+	height: 30px;
+	background-color: #ddd;
+}
+
+//prop弹出选择 PromptSelect
+.popover{
+  width: 4rem;
+  height: auto;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: -0.27rem;
+  z-index: 9999999999;
+  border: 1PX solid #eee;
+  box-shadow:0px 0px  10px 5px #eee;
+}
+.popover p {
+  height: 0.8rem;
+  width: 100%;
+  color: #333;
+  background-color: #fff;
+  border-bottom: 1PX solid #dcdcdc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-size: 0.37333rem;
+  font-family: "PingFang-SC-Bold";
+  line-height: 0.9rem;
+}
+.popover div {
+  width: 3.7rem;
+  word-break: break-all;
+  //background-color: red;
+  text-align: left;
+  height: auto;
+}
+.popover img{
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+.popover p:nth-of-type(2){
+  border: 0;
+}
+.popover:before {
+           border: solid transparent;
+           content: ' ';
+           height: 0;
+           position: absolute;
+           width: 0;
+           top: -0.32rem;
+           right: 30px;
+           border-width: 12px;
+           border-bottom-color: #fff;
+       }
+
+// .popover p img {
+//   width: 32px;
+//   height: 32px;
+//   margin-right: 10px;
+// }
+//
+
+
+//分享弹出链接
+.alert{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, .5);
+    font-family: "FingFang-SC-Regular";
+}
+.alertBody{
+    width: 90%;
+    // height: 360px;
+    margin: 0 auto;
+    margin-top: 45%;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.alertBody div {
+    padding-top: 64px;
+    width: 92%;
+    margin: auto;
+    // height: 230px;
+    margin-bottom: 40px;
+}
+.alertBody div section{
+    width: 100%;
+    height: 100%;
+    border: 1PX solid #b5b5b5;
+    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 26px;
+    color: #9f9f9f;
+    position: relative;
+}
+.alertBody div section img{
+    width: 234px;
+    height: 234px;
+    position: absolute;
+    bottom: -50px;
+    right: -20px;
+    z-index: 1;
+}
+.alertBody div section i{
+    width: 50%;
+    height: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -15px;
+    left: 23%;
+    text-align: center;
+    font-family: "PingFang-SC-Regular";
+}
+.alertBody div section p{
+    line-height: 38px;
+    font-family: "PingFang-SC-Regular";
+    width: 100%;
+    word-wrap:break-word
+}
+// .alertBody div section p:first-of-type{
+//     padding-bottom: 10px;
+//     color: #ff2f33;
+// }
+.alertBody section span{
+    display: block;
+    width: 52%;
+    height: 34px;
+    color: #333333;
+    background-color: #fff;
+    position: absolute;
+    left: 24%;
+    top: -25px;
+    font-size: 32px;
+    text-align: center;
+}
+.alertBody .btnAlert{
+    width: 100%;
+    height: 90px;
+    border-top: 1PX solid #dfdfdf;
+}
+.btnAlert p{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 32px;
+    color: #333333;
+    border-right: 1PX solid #dfdfdf;
+}
+.btnAlert p:last-of-type{
+    border: 0;
+    color: #f22f33;
+}
+.clearBox::after{
+    content: '';
+    clear:both;
+}

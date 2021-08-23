@@ -1,0 +1,161 @@
+html,body{
+  height: 100%;
+}
+.wrap{
+  height: 100%;
+  position: relative;
+}
+
+.total{
+  width: 100%;
+  height: 84px;
+  background: #f7f7f8;
+  border-top: solid 1PX #e0e0e0;
+  border-bottom: solid 1PX #e0e0e0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.sort,.filter{
+  flex: 1;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.sort{
+  border-right: solid 1PX #dcdcdc;
+}
+.img{
+  display: inline-block;
+  vertical-align: middle;;
+  margin-left: 20px;
+}
+
+
+//添加客户弹出
+.pop{
+  width: 262px;
+  height: 180px;
+  padding-top: 22px;
+  background-image: url('../../image/icon/pop.png');
+  background-size: contain;
+  position: absolute;
+  right: 14px;
+  top: 110px;
+  z-index: 1000;
+  display: none;
+}
+.pop li{
+  color: #f22f33;
+  font-size: 30px;
+  padding-top: 23px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+.pop li:first-child{
+  border-bottom: solid 1PX #dcdcdc;
+}
+
+
+.right {
+	position: absolute;
+	top: 6px;
+	right: 30px;
+	text-align: right;
+	color:#333;
+}
+.right img{
+	width: 40px;
+	height: 40px;
+}
+
+//筛选页面
+.all{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  // padding-top: 129px;
+}
+.content{
+  height: 100%;
+  width: 666px;
+  display: flex;
+  flex-direction: column;
+  // padding-top: 22px;
+  position: relative;
+  background-color: #fff;
+}
+.padding{
+  margin-top: 15px;
+  padding-left: 34px;
+}
+.content p{
+  color: #333333;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.foot{
+  width: 666px;
+  height: 98px;
+  display: flex;
+  border-top: solid 3px #c8c7cc;
+  position: fixed;
+  bottom: 0;
+}
+.foot div{
+  flex: 1;
+  line-height: 98px;
+  text-align: center;
+}
+.foot .reset{
+  color: #000;
+  font-size: 34px;
+  background-color: #fff;
+}
+.foot .submit{
+  background-color: #f22f33;
+  color: #fff;
+  font-size: 34px;
+}
+
+.flex ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.content li{
+  width: 188px;
+  height: 57px;
+  margin-right: 20px;
+  margin-bottom: 22px;
+  background: #ededed;
+  border-radius: 10px;
+  line-height: 57px;
+  text-align: center;
+  color: #555;
+  font-size: 26px;
+}
+.content div:nth-last-child(2) li{
+  width: 290px;
+}
+.content .li{
+  background: #fff;
+  border: solid 3px #f22f33;
+  color: #f22f33;
+}
+
+//抽屉
+.my-drawer {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+.my-drawer .am-drawer-sidebar {
+  max-width: 86%;
+  background-color: #fff;
+  overflow: auto;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  padding: 0;
+}

@@ -1,0 +1,337 @@
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #efeff4;
+  padding-bottom: 1.12rem;
+  position: relative;
+  box-sizing: border-box;
+}
+.box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 1.12rem;
+  right: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.head {
+  padding: 40px 40px 0;
+  background-color: #ffffff;
+  P{
+    font-size: 28px;
+    color: #848484;
+    padding-bottom: 33px;
+    //background-color: #f6777a;
+    span {
+      padding-left: 28px;
+      color: #000;
+    }
+  }
+}
+.btn {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  border-radius: 0;
+  color: #fff;
+  background-color: #d51323;
+}
+.upload {
+  height: auto;
+  padding-bottom: 30px;
+  margin-top: 22px;
+  background-color: #fff;
+}
+.upload p:first-child {
+  width: 100%;
+  height: 1.2rem;
+  padding: 0 0.4rem;
+  line-height: 90px;
+  font-size: 28px;
+  color: #333333;
+  border-bottom: 2px solid #dedede;
+}
+
+.upload p:first-child span {
+  float: right;
+  color: #848484;
+}
+
+.touchStyle{
+  padding-top: 18px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  .flexBox {
+    margin-bottom: 12px;
+  }
+  .fileshint {
+    font-size: 22px;
+    color: #8f8f8f;
+  }
+}
+.dropZone {
+  border: none;
+  background-color: cyan;
+  width: 154px;
+  height: 154px;
+  touch-action: none;
+}
+.filesList {
+  height: 160px;
+  width: 160px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  position: relative;
+  margin-right: 12px;
+  margin-left: 0;
+  background-color: #fff;
+  &:before,
+  &:after {
+    width: 2px;
+    height: 50px;
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ccc;
+  }
+
+  &:after {
+    width: 50px;
+    height:2px;
+  }
+}
+.crossStyle {
+  overflow: hidden;
+  width: 64px;
+  height: 64px;
+  //background-color: #fddde2;
+  ul{
+    list-style: none;
+  }
+  li:nth-of-type(1){
+    float: left;
+    height: 31px;
+    width: 31px;
+    border-bottom: 2px solid #cccccc;
+  }
+  li:nth-of-type(2){
+    float: left;
+    height: 31px;
+    width: 32px;
+    border-left: 2px solid  #cccccc;
+    border-bottom: 2px solid #cccccc;
+  }
+  li:nth-of-type(3){
+    float: left;
+    height: 31px;
+    width: 31px;
+  }
+  li:nth-of-type(4){
+    float: left;
+    height: 32px;
+    width: 31px;
+    border-left: 2px solid #cccccc;
+  }
+}
+.container .hint{
+  width: 100%;
+  padding: 22px 20px 40px;
+  font-size: 22px;
+  color: #8f8f8f;
+  //background-color: green;
+  //border-bottom: 2px solid #dedede;
+}
+.files-dropzone-list {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+  border: 1px dashed #D3D3D3;
+  cursor: pointer;
+}
+
+.files-buttons {
+  border-top: 1px solid #D3D3D3;
+  cursor: pointer;
+}
+.files-button-submit {
+  display: inline-block;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  width: 50%;
+  box-sizing: border-box;
+  border-right: 1px solid #D3D3D3;
+}
+.files-button-submit:before {
+  content: "Submit"
+}
+.files-button-clear {
+  display: inline-block;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  width: 50%;
+  box-sizing: border-box;
+}
+.files-button-clear:before {
+  content: "Clear"
+}
+.bottom {
+  //background-color: yellow;
+  padding: 0px 20px 100px;
+  font-size: 22px;
+  color: #8f8f8f;
+}
+
+//----------------------------------------------- video ---------------------
+.videoContainer {
+  width: 100%;
+  height: auto;
+  //background-color: #00aaff;
+  padding: 40px 0.4rem 0;
+  border-top: 1px solid rgb(222,222,222);
+  position: relative;
+  .removeStyle {
+    z-index: 199;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: red;
+    position: absolute;
+    top: 22px;
+    left: 153px;
+    transform: rotate(45deg);
+    &:before,
+    &:after {
+      width: 2px;
+      height: 22px;
+      content: " ";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ffffff;
+    }
+
+    &:after {
+      width: 22px;
+      height:2px;
+    }
+  }
+}
+.videoContainer .videoImage1 {
+  height: 150px;
+  width: 150px;
+  background-color: #D3D3D3;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 45px;
+  //显示的内容 pdf doc docx
+  .fileContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    object-fit: cover;
+  }
+  .imageContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    object-fit: cover;
+  }
+}
+// ----------------------------------------------- android -------
+.videoImage {
+  height: 150px;
+  width: 150px;
+  background-color: #D3D3D3;
+  //overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 45px;
+}
+.videoContainer p {
+  //background-color: #00aaff;
+  font-size: 28px;
+  width: 100%;
+  color: #848484;
+  padding-bottom: 33px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  //white-space: nowrap;
+  span {
+    padding-left: 28px;
+    color: #C1C1C1;
+  }
+}
+
+.videoContainer .firstLine {
+  display: flex;
+  flex-direction: row;
+  span{
+    font-size: 28px;
+    color: #848484;
+    text-align: left;
+  }
+  textarea {
+    background-color: #ffffff;
+    width: 78%;
+    overflow: hidden;
+    word-break:break-all;
+    font-size: 28px;
+    //color: #000;
+    margin-left: 28px;
+  }
+}
+
+.videoBox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  video {
+    width: 1px;
+    display: block;
+  }
+}
+
+.firstDiv{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  //left: 0;
+  //top: 0;
+  overflow: hidden;
+  //z-index: 100;
+}
+
+.androidBox {
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+  video {
+    //width: 100%;
+    //height: 400px;
+    object-fit: cover;
+  }
+}
+.loading{
+  position: absolute;
+  top: 40%;
+  left: 46%;
+  width: 1.81333rem;
+  height: 1.81333rem;
+}
